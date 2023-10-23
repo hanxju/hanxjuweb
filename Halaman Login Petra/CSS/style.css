@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../Image/—Pngtree—shading\ background\ abstract\ colorful\ background_938007.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.login{
+
+    width: 420px;
+    height: 420px;
+    background: linear-gradient(#ffffff, #c8b6ff);
+    color: black;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.login h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.login .email, .password{
+    width: 100%;
+    height: 20%;
+    margin: 30px 0;
+}
+
+.email input, .password input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 40px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+;
+
+}
+.email input::placeholder{
+    color: black;
+}
+
+.password input::placeholder{
+    color: black;
+}
+
+
+.login .lupapassword{
+    margin: -15px 0 15px;
+    color: black;
+}
+
+
+.lupapassword a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.lupapassword a:hover{
+    color: brown;
+}
+
+
+.login .tombol{
+    width: 100%;
+    height: 45px;
+    background: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.login .buatakun{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.login .buatakun a{
+    color: black    ;
+    text-decoration: none;
+}
+
+
+.login .buatakun a:hover{
+    color: brown;
+}
